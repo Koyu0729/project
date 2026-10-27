@@ -1,7 +1,3 @@
-// 【ファイルの役割】アビリティエネルギーの現在値と最大値を、複数のゲージ部品で表す。
-// 【依存・注意点】Parameter.DefaultValueを表示値に使う。補正後のCalculateValueを表示すべき仕様かはゲーム側と確認する。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

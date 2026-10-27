@@ -1,7 +1,3 @@
-// 【ファイルの役割】UIの表示・非表示、Animator制御、画面座標とCanvas座標の変換を共通化する。
-// 【依存・注意点】Camera.mainと親Canvasを取得する。非表示アニメーションを使う場合は完了イベントの設定が必要。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using UnityEngine;
 using System.Collections;
 

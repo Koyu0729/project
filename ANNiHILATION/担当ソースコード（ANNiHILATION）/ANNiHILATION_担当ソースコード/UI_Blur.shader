@@ -1,7 +1,3 @@
-// 【ファイルの役割】横方向と縦方向の2パスで画面の背景をぼかす。
-// 【依存・注意点】Renderer Featureから渡される_BlitTextureを読み取る。横パスの出力が縦パスの入力となる。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 Shader "Hidden/UI/Background Blur"
 {
     Properties

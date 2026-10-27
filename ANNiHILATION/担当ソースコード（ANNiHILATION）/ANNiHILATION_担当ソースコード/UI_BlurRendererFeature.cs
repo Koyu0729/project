@@ -1,7 +1,3 @@
-// 【ファイルの役割】画面を縮小して2方向にぼかし、UI用の背景テクスチャを生成する。
-// 【依存・注意点】URP RenderGraphと永続RTHandleを使う。グローバルテクスチャ名は共通なので複数カメラでの共有に注意。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using System;
 using UnityEngine;
 using UnityEngine.Rendering;

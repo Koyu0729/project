@@ -1,7 +1,3 @@
-// 【ファイルの役割】画面遷移用Animatorを制御し、開始と終了をイベント通知する。
-// 【依存・注意点】シーンを跨いで保持する。イベント購読は通知時に消去される。durationは正数を渡す必要がある。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;

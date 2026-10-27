@@ -1,7 +1,3 @@
-// 【ファイルの役割】ノイズの強度、歪み、RGBずれ、粒状感、マスク設定をVolumeに保持する。
-// 【依存・注意点】描画の設定データを担当する。被ダメージ・死亡の時間変化はDamagePostEffectControllerが担当する。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;

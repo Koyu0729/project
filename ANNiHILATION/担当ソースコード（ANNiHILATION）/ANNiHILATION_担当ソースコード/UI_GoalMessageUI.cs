@@ -1,7 +1,3 @@
-// 【ファイルの役割】目標メッセージを表示し、指定時間後に非表示へ移行する。
-// 【依存・注意点】待ち時間はTime.timeScaleの影響を受ける。クラス名はUI_GoalMessageで、ファイル名と異なる。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using System.Collections;
 using TMPro;
 using UnityEngine;

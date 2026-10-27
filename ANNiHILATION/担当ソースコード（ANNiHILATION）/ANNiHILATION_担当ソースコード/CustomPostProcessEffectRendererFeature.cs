@@ -1,7 +1,3 @@
-// 【ファイルの役割】Volume設定をMaterialへ反映し、フルスクリーンのポストエフェクトを描画する。
-// 【依存・注意点】Create、Pass登録、RenderGraph、Volume連携はUnity標準テンプレートにもある構成。名前検索・パラメータ自動転送・ダメージ値連携は標準テンプレートとの差分。作者はコードだけでは特定できない。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using System;
 using System.Collections.Generic;
 using System.Reflection;

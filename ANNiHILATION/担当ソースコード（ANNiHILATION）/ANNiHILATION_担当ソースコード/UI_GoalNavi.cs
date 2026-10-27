@@ -1,7 +1,3 @@
-// 【ファイルの役割】画面外の目標へ向かうナビカーソルを画面端に配置する。
-// 【依存・注意点】最初の登録対象はシーン内のGoalAreaで上書きする。登録時にはNaviDataのcursor参照も変更する。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using System.Collections.Generic;
 using UnityEngine;
 

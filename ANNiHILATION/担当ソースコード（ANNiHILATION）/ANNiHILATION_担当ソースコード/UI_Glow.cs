@@ -1,7 +1,3 @@
-// 【ファイルの役割】ImageのMaterialへ発光色と強度を渡す。
-// 【依存・注意点】_EmissionColorを設定するが、同梱UI_Glow.shaderは_BloomColorを使うため、その組合せは修正が必要。共有Materialの変更にも注意。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using UnityEngine;
 using UnityEngine.UI;
 

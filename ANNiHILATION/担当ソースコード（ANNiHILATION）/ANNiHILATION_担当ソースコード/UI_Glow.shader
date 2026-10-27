@@ -1,7 +1,3 @@
-// 【ファイルの役割】UI画像を周囲にサンプリングし、疑似的な発光の広がりを描画する。
-// 【依存・注意点】実際のBloomとは別の表現。調整するプロパティは_BloomColor、_BloomStrength、_BloomSizeなど。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 Shader "UI/OverlayPseudoBloom"
 {
     Properties

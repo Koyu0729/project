@@ -1,7 +1,3 @@
-// 【ファイルの役割】インベントリ入力でステータスUIの開閉状態を切り替え、位置を補間する。
-// 【依存・注意点】GameInputManagerの入力イベントを購読・解除する。OnEnable時のManager初期化順序に注意。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using UnityEngine;
 using UnityEngine.InputSystem;
 

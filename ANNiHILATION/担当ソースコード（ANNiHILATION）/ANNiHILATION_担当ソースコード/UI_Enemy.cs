@@ -1,7 +1,3 @@
-// 【ファイルの役割】EnemyManagerの敵数をテキスト表示し、数が変わったときに更新する。
-// 【依存・注意点】Startでシーン内のEnemyManagerと子Textを取得する。参照がない場合のnull対策は別途必要。
-// このコメントは現状のコードの説明であり、実装者や動作保証を示すものではありません。
-
 using TMPro;
 using UnityEngine;
 
