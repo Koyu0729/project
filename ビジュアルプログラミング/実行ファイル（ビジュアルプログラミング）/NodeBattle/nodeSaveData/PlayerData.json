@@ -1,0 +1,82 @@
+{
+    "Connections": [
+        {
+            "fromID": 0,
+            "fromPort": 1,
+            "toID": 1
+        },
+        {
+            "fromID": 1,
+            "fromPort": 1,
+            "toID": 2
+        },
+        {
+            "fromID": 2,
+            "fromPort": 1,
+            "toID": 3
+        }
+    ],
+    "Nodes": [
+        {
+            "Category": 0,
+            "ID": 0,
+            "Position": [
+                50.0,
+                300.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.5,
+                "hpPercent": 50.0
+            },
+            "Type": 0
+        },
+        {
+            "Category": 5,
+            "ID": 1,
+            "Position": [
+                330.0,
+                300.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 4.0,
+                "duration": 1.0,
+                "hpPercent": 50.0
+            },
+            "Type": 36
+        },
+        {
+            "Category": 3,
+            "ID": 2,
+            "Position": [
+                610.0,
+                300.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.44999998807907104,
+                "hpPercent": 50.0
+            },
+            "Type": 5
+        },
+        {
+            "Category": 4,
+            "ID": 3,
+            "Position": [
+                890.0,
+                300.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.550000011920929,
+                "hpPercent": 50.0
+            },
+            "Type": 18
+        }
+    ],
+    "version": 2
+}

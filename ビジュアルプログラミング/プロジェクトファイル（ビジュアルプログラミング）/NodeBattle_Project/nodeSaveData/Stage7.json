@@ -1,0 +1,103 @@
+{
+    "version": 2,
+    "Nodes": [
+        {
+            "ID": 0,
+            "Category": 0,
+            "Type": 0,
+            "Position": [
+                50,
+                260
+            ],
+            "Settings": {}
+        },
+        {
+            "ID": 1,
+            "Category": 5,
+            "Type": 12,
+            "Position": [
+                330,
+                260
+            ],
+            "Settings": {
+                "duration": 4,
+                "distance": 2.0
+            }
+        },
+        {
+            "ID": 2,
+            "Category": 6,
+            "Type": 21,
+            "Position": [
+                610,
+                260
+            ],
+            "Settings": {
+                "duration": 0.6
+            }
+        },
+        {
+            "ID": 3,
+            "Category": 2,
+            "Type": 4,
+            "Position": [
+                890,
+                260
+            ],
+            "Settings": {
+                "duration": 0.4
+            }
+        },
+        {
+            "ID": 4,
+            "Category": 5,
+            "Type": 9,
+            "Position": [
+                50,
+                420
+            ],
+            "Settings": {
+                "duration": 0.4
+            }
+        },
+        {
+            "ID": 5,
+            "Category": 4,
+            "Type": 18,
+            "Position": [
+                330,
+                420
+            ],
+            "Settings": {
+                "duration": 0.2
+            }
+        }
+    ],
+    "Connections": [
+        {
+            "fromID": 0,
+            "toID": 1,
+            "fromPort": 1
+        },
+        {
+            "fromID": 1,
+            "toID": 2,
+            "fromPort": 1
+        },
+        {
+            "fromID": 2,
+            "toID": 3,
+            "fromPort": 1
+        },
+        {
+            "fromID": 3,
+            "toID": 4,
+            "fromPort": 1
+        },
+        {
+            "fromID": 4,
+            "toID": 5,
+            "fromPort": 1
+        }
+    ]
+}
