@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="SourceCode">
+      <UniqueIdentifier>{40649ecb-67ef-5e59-a5a5-3de31ae34c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Audio">
+      <UniqueIdentifier>{6bebde00-0557-594e-a54c-29dfa96d7ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Camera">
+      <UniqueIdentifier>{999b5e46-1b55-5164-aa97-efb673805f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Core">
+      <UniqueIdentifier>{3752a06f-0b58-599b-a28f-7b43bcbb8fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\GameData">
+      <UniqueIdentifier>{cf6c83c7-f1f0-52f0-8f24-25d92901a7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Graphics">
+      <UniqueIdentifier>{c31b5ae0-170c-5a26-903b-c36a015891df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Input">
+      <UniqueIdentifier>{7caf867c-1ba0-5b1c-9ead-6d83f131432b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Player">
+      <UniqueIdentifier>{9c081be2-bb45-5282-a8fe-0e412020d685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Player\ActionControllers">
+      <UniqueIdentifier>{841465c3-28ac-5701-9bc8-dc93bd4e98f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Player\ActionResolution">
+      <UniqueIdentifier>{a6202de5-5710-59b8-8bb4-738444588ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Player\Parameters">
+      <UniqueIdentifier>{9450a185-167b-5534-8f84-b1cdbbf0f003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Scenes">
+      <UniqueIdentifier>{8f546d71-5295-52c2-90b1-d8e61a04d977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Stage">
+      <UniqueIdentifier>{dc8ef844-83a8-55ad-af78-7b2c6f62c7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\UI">
+      <UniqueIdentifier>{5b949ef0-8f31-500f-b28b-877d90afbe96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{f3cb565d-3c4d-5765-900e-c88703534d16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\Audio\kosu_s_cri.cpp">
+      <Filter>SourceCode\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Camera\camera.cpp">
+      <Filter>SourceCode\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Core\main.cpp">
+      <Filter>SourceCode\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\GameData\gameData.cpp">
+      <Filter>SourceCode\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\GameData\gameDataLoader.cpp">
+      <Filter>SourceCode\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\animationModel.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\modelRenderer.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\particle.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\particleEffectManager.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\polygon.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\polygon2D.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\polygon3D.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\renderer.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\speedLineEffect.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Graphics\texture.cpp">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Input\input.cpp">
+      <Filter>SourceCode\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Input\mouseInput.cpp">
+      <Filter>SourceCode\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerAirDiveController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerBonusActionController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerClimbController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerEffectController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerJumpController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerMoveController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerRunController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerSlopeRideController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerSoundController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerStateController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionControllers\playerWallKickController.cpp">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionResolution\playerActionResolver.cpp">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionResolution\playerActionResolverClimb.cpp">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionResolution\playerActionResolverContact.cpp">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionResolution\playerActionResolverEffects.cpp">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionResolution\playerActionResolverGround.cpp">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionResolution\playerActionResolverMovement.cpp">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionResolution\playerActionResolverRequests.cpp">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionResolution\playerActionResolverSlope.cpp">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\ActionResolution\playerActionResolverWall.cpp">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player\player.cpp">
+      <Filter>SourceCode\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Scenes\game.cpp">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Scenes\loadingScene.cpp">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Scenes\manager.cpp">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Scenes\result.cpp">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Scenes\scene.cpp">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Scenes\title.cpp">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\backgroundObject.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\backgroundObjectManager.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\goalBuilding.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\groundBlockManager.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\jumpPad.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\laserWall.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\sky.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\stageBlock.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\stageBlockManager.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\stageMaskBlock.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\stageModuleManager.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Stage\timeCoin.cpp">
+      <Filter>SourceCode\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\UI3DButton.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\UIQuadBase.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\UISlider.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\UISpriteSheetBase.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\UITextureText.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\bonusGauge.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\button.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\comboCounterUI.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\distanceCounter.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\fade.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\gameTime.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\loadPercent.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\optionUI.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI\resultTime.cpp">
+      <Filter>SourceCode\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceCode\Audio\kosu_s_cri.h">
+      <Filter>SourceCode\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Camera\camera.h">
+      <Filter>SourceCode\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Camera\cameraParameter.h">
+      <Filter>SourceCode\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Core\component.h">
+      <Filter>SourceCode\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Core\gameObject.h">
+      <Filter>SourceCode\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Core\main.h">
+      <Filter>SourceCode\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Core\vector3.h">
+      <Filter>SourceCode\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\GameData\gameConfigData.h">
+      <Filter>SourceCode\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\GameData\gameData.h">
+      <Filter>SourceCode\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\GameData\gameDataLoader.h">
+      <Filter>SourceCode\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\animationModel.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\modelRenderer.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\particle.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\particleEffectManager.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\polygon.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\polygon2D.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\polygon3D.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\renderer.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\speedLineEffect.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Graphics\texture.h">
+      <Filter>SourceCode\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Input\input.h">
+      <Filter>SourceCode\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Input\mouseInput.h">
+      <Filter>SourceCode\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerAirDiveController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerBonusActionController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerClimbController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerEffectController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerJumpController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerMoveController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerRunController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerSlopeRideController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerSoundController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerStateController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionControllers\playerWallKickController.h">
+      <Filter>SourceCode\Player\ActionControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionResolution\playerActionRequest.h">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionResolution\playerActionResolver.h">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\ActionResolution\playerRuntimeState.h">
+      <Filter>SourceCode\Player\ActionResolution</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\Parameters\playerBonusActionParameter.h">
+      <Filter>SourceCode\Player\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\Parameters\playerClimbParameter.h">
+      <Filter>SourceCode\Player\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\Parameters\playerDiveParameter.h">
+      <Filter>SourceCode\Player\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\Parameters\playerJumpParameter.h">
+      <Filter>SourceCode\Player\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\Parameters\playerMoveParameter.h">
+      <Filter>SourceCode\Player\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\Parameters\playerRunParameter.h">
+      <Filter>SourceCode\Player\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\Parameters\playerSlopeRideParameter.h">
+      <Filter>SourceCode\Player\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\Parameters\playerWallKickParameter.h">
+      <Filter>SourceCode\Player\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player\player.h">
+      <Filter>SourceCode\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Scenes\game.h">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Scenes\loadingScene.h">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Scenes\manager.h">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Scenes\result.h">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Scenes\scene.h">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Scenes\title.h">
+      <Filter>SourceCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\backgroundObject.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\backgroundObjectManager.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\goalBuilding.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\groundBlockManager.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\jumpPad.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\laserWall.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\sky.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\stageBlock.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\stageBlockManager.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\stageMaskBlock.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\stageModuleData.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\stageModuleManager.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Stage\timeCoin.h">
+      <Filter>SourceCode\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\UI3DButton.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\UIQuadBase.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\UISlider.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\UISpriteSheetBase.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\UITextureText.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\bonusGauge.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\button.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\comboCounterUI.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\distanceCounter.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\fade.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\gameTime.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\loadPercent.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\optionUI.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI\resultTime.h">
+      <Filter>SourceCode\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\common.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\emissiveMaskPS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\gpuParticleCS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\gpuParticlePS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\gpuParticleVS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTexturePS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTextureVS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

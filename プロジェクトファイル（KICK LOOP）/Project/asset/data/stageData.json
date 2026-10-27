@@ -1,0 +1,238 @@
+{
+    "Ground": {
+        "center": [
+            25.0,
+            0.0,
+            23.0
+        ],
+        "halfSize": [
+            10.0,
+            0.5,
+            100.0
+        ],
+        "texturePath": "asset\\texture\\frameBoxR.png",
+        "tileHalfSizeY": 0.05,
+        "tileSize": 4.0,
+        "colorPattern": [
+            9, 9, 9, 9, 9,
+            9, 9, 9, 9, 9,
+            5, 9, 9, 9, 5,
+            9, 5, 9, 5, 9,
+            9, 9, 5, 9, 9
+        ]
+    },
+    "TexturePaths": [
+        "asset\\texture\\go.png",
+        "asset\\texture\\frameBox.png",
+        "asset\\texture\\frameBoxR.png",
+        "asset\\texture\\siro.png",
+        "asset\\texture\\slide.png",
+        "asset\\texture\\jamp.png",
+        "asset\\texture\\TimeA.png",
+        "asset\\texture\\car_handle.png"
+    ],
+    "FloorObstaclePresets": [
+        {
+            "name": "OneFloor",
+            "size": [
+                10.0,
+                2.5,
+                10.0
+            ],
+            "centerX": 25.0,
+            "centerY": 2.5,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\jamp.png",
+            "commentOffset": [
+                0.0,
+                1.0,
+                5.0
+            ]
+        },
+        {
+            "name": "TwoFloor",
+            "size": [
+                10.0,
+                5.0,
+                10.0
+            ],
+            "centerX": 25.0,
+            "centerY": 5.5,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\jamp.png",
+            "commentOffset": [
+                0.0,
+                2.0,
+                0.0
+            ]
+        },
+        {
+            "name": "ThreeFloor",
+            "size": [
+                5.0,
+                5.0,
+                10.0
+            ],
+            "centerX": 30.0,
+            "centerY": 5.5,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\jamp.png",
+            "commentOffset": [
+                0.0,
+                2.0,
+                0.0
+            ]
+        },
+        {
+            "name": "FourFloor",
+            "size": [
+                5.0,
+                5.0,
+                10.0
+            ],
+            "centerX": 20.0,
+            "centerY": 5.5,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\jamp.png",
+            "commentOffset": [
+                0.0,
+                2.0,
+                0.0
+            ]
+        },
+        {
+            "name": "FiveFloor",
+            "size": [
+                10.0,
+                2.5,
+                5.0
+            ],
+            "centerX": 25.0,
+            "centerY": 5.5,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\jamp.png",
+            "commentOffset": [
+                0.0,
+                2.0,
+                0.0
+            ]
+        },
+        {
+            "name": "SixFloor",
+            "size": [
+                2.5,
+                5.0,
+                10.0
+            ],
+            "centerX": 25.0,
+            "centerY": 5.5,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\jamp.png",
+            "commentOffset": [
+                0.0,
+                2.0,
+                0.0
+            ]
+        }
+    ],
+    "WallObstaclePresets": [
+        {
+            "name": "OneWall",
+            "size": [
+                2.5,
+                10.0,
+                20.0
+            ],
+            "centerX": 32.5,
+            "centerY": 4.0,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\slide.png",
+            "commentOffset": [
+                -5.0,
+                -2.0,
+                0.0
+            ]
+        },
+        {
+            "name": "TwoWall",
+            "size": [
+                2.5,
+                10.0,
+                20.0
+            ],
+            "centerX": 17.5,
+            "centerY": 4.0,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\slide.png",
+            "commentOffset": [
+                5.0,
+                -2.0,
+                0.0
+            ]
+        },
+        {
+            "name": "ThreeWall",
+            "size": [
+                2.5,
+                8.0,
+                20.0
+            ],
+            "centerX": 32.5,
+            "centerY": 20.0,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\slide.png",
+            "commentOffset": [
+                -5.0,
+                -8.0,
+                8.0
+            ]
+        },
+        {
+            "name": "FourWall",
+            "size": [
+                2.5,
+                8.0,
+                20.0
+            ],
+            "centerX": 17.5,
+            "centerY": 20.0,
+            "texturePath": "asset\\texture\\siro.png",
+            "isRainbow": true,
+            "rainbowSpeed": 2.0,
+            "alpha": 0.7,
+            "commentTexturePath": "asset\\texture\\slide.png",
+            "commentOffset": [
+                5.0,
+                -8.0,
+                8.0
+            ]
+        }
+    ]
+}
