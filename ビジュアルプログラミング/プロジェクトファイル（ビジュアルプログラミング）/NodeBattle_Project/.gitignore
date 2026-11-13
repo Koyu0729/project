@@ -1,0 +1,5 @@
+/Library/cri-sdk/
+/Library/cri/
+/cri_ware_pcx64_le.dll
+/build/
+!/asset/model/box.obj

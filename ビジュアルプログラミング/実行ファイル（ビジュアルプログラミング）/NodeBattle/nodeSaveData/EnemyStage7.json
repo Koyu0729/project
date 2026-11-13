@@ -1,0 +1,84 @@
+{
+    "version": 2,
+    "HP": 60,
+    "ReadyTime": 0.75,
+    "Nodes": [
+        {
+            "ID": 0,
+            "Category": 0,
+            "Type": 0,
+            "Position": [
+                50,
+                230
+            ],
+            "Settings": {
+                "duration": 0.05,
+                "hpPercent": 50.0,
+                "distance": 1.8,
+                "angleDegrees": 90.0
+            }
+        },
+        {
+            "ID": 1,
+            "Category": 6,
+            "Type": 21,
+            "Position": [
+                330,
+                230
+            ],
+            "Settings": {
+                "duration": 0.6,
+                "hpPercent": 50.0,
+                "distance": 1.8,
+                "angleDegrees": 90.0
+            }
+        },
+        {
+            "ID": 2,
+            "Category": 2,
+            "Type": 31,
+            "Position": [
+                610,
+                230
+            ],
+            "Settings": {
+                "duration": 0.2,
+                "hpPercent": 50.0,
+                "distance": 1.8,
+                "angleDegrees": 90.0
+            }
+        },
+        {
+            "ID": 3,
+            "Category": 4,
+            "Type": 18,
+            "Position": [
+                890,
+                230
+            ],
+            "Settings": {
+                "duration": 0.8,
+                "hpPercent": 50.0,
+                "distance": 1.8,
+                "angleDegrees": 90.0
+            }
+        }
+    ],
+    "Connections": [
+        {
+            "fromID": 0,
+            "toID": 1,
+            "fromPort": 1
+        },
+        {
+            "fromID": 1,
+            "toID": 2,
+            "fromPort": 1
+        },
+        {
+            "fromID": 2,
+            "toID": 3,
+            "fromPort": 1
+        }
+    ]
+}

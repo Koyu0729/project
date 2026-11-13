@@ -1,0 +1,23 @@
+{
+    "Connections": [
+        {
+            "fromID": 0,
+            "fromPort": 1,
+            "toID": 2
+        }
+    ],
+    "Nodes": [
+        {
+            "Category": 0,
+            "ID": 0,
+            "Type": 0
+        },
+        {
+            "Category": 3,
+            "ID": 2,
+            "Type": 5
+        }
+    ],
+    "HP": 100,
+    "ReadyTime": 0.75
+}

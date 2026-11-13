@@ -1,0 +1,153 @@
+{
+    "version": 2,
+    "Nodes": [
+        {
+            "ID": 0,
+            "Category": 0,
+            "Type": 0,
+            "Position": [
+                50,
+                300
+            ],
+            "Settings": {}
+        },
+        {
+            "ID": 1,
+            "Category": 1,
+            "Type": 2,
+            "Position": [
+                350,
+                300
+            ],
+            "Settings": {
+                "hpPercent": 50
+            }
+        },
+        {
+            "ID": 2,
+            "Category": 5,
+            "Type": 13,
+            "Position": [
+                650,
+                170
+            ],
+            "Settings": {
+                "duration": 0.5,
+                "distance": 6
+            }
+        },
+        {
+            "ID": 3,
+            "Category": 1,
+            "Type": 1,
+            "Position": [
+                650,
+                380
+            ],
+            "Settings": {}
+        },
+        {
+            "ID": 4,
+            "Category": 1,
+            "Type": 3,
+            "Position": [
+                950,
+                260
+            ],
+            "Settings": {
+                "distance": 1.5
+            }
+        },
+        {
+            "ID": 5,
+            "Category": 6,
+            "Type": 15,
+            "Position": [
+                950,
+                540
+            ],
+            "Settings": {
+                "angleDegrees": 90
+            }
+        },
+        {
+            "ID": 6,
+            "Category": 2,
+            "Type": 4,
+            "Position": [
+                1250,
+                170
+            ],
+            "Settings": {
+                "duration": 0.35
+            }
+        },
+        {
+            "ID": 7,
+            "Category": 5,
+            "Type": 12,
+            "Position": [
+                1250,
+                360
+            ],
+            "Settings": {
+                "duration": 0.5,
+                "distance": 1.4
+            }
+        },
+        {
+            "ID": 8,
+            "Category": 4,
+            "Type": 18,
+            "Position": [
+                1250,
+                540
+            ],
+            "Settings": {
+                "duration": 0.2
+            }
+        }
+    ],
+    "Connections": [
+        {
+            "fromID": 0,
+            "fromPort": 1,
+            "toID": 1
+        },
+        {
+            "fromID": 1,
+            "fromPort": 2,
+            "toID": 2
+        },
+        {
+            "fromID": 1,
+            "fromPort": 3,
+            "toID": 3
+        },
+        {
+            "fromID": 3,
+            "fromPort": 2,
+            "toID": 4
+        },
+        {
+            "fromID": 3,
+            "fromPort": 3,
+            "toID": 5
+        },
+        {
+            "fromID": 4,
+            "fromPort": 2,
+            "toID": 6
+        },
+        {
+            "fromID": 4,
+            "fromPort": 3,
+            "toID": 7
+        },
+        {
+            "fromID": 5,
+            "fromPort": 1,
+            "toID": 8
+        }
+    ]
+}

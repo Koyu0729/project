@@ -1,0 +1,64 @@
+{
+    "version": 2,
+    "HP": 60,
+    "ReadyTime": 0.75,
+    "Nodes": [
+        {
+            "ID": 0,
+            "Category": 0,
+            "Type": 0,
+            "Position": [
+                50,
+                230
+            ],
+            "Settings": {
+                "duration": 0.05,
+                "hpPercent": 50.0,
+                "distance": 1.8,
+                "angleDegrees": 90.0
+            }
+        },
+        {
+            "ID": 1,
+            "Category": 4,
+            "Type": 32,
+            "Position": [
+                330,
+                230
+            ],
+            "Settings": {
+                "duration": 1,
+                "hpPercent": 50.0,
+                "distance": 1.8,
+                "angleDegrees": 90.0
+            }
+        },
+        {
+            "ID": 2,
+            "Category": 4,
+            "Type": 18,
+            "Position": [
+                610,
+                230
+            ],
+            "Settings": {
+                "duration": 2,
+                "hpPercent": 50.0,
+                "distance": 1.8,
+                "angleDegrees": 90.0
+            }
+        }
+    ],
+    "Connections": [
+        {
+            "fromID": 0,
+            "toID": 1,
+            "fromPort": 1
+        },
+        {
+            "fromID": 1,
+            "toID": 2,
+            "fromPort": 1
+        }
+    ]
+}

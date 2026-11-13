@@ -1,0 +1,237 @@
+{
+    "version": 2,
+    "Nodes": [
+        {
+            "ID": 0,
+            "Category": 0,
+            "Type": 0,
+            "Position": [
+                50,
+                300
+            ],
+            "Settings": {}
+        },
+        {
+            "ID": 1,
+            "Category": 1,
+            "Type": 34,
+            "Position": [
+                340,
+                300
+            ],
+            "Settings": {
+                "distance": 2
+            }
+        },
+        {
+            "ID": 2,
+            "Category": 5,
+            "Type": 19,
+            "Position": [
+                650,
+                80
+            ],
+            "Settings": {
+                "duration": 0.8
+            }
+        },
+        {
+            "ID": 3,
+            "Category": 5,
+            "Type": 36,
+            "Position": [
+                940,
+                300
+            ],
+            "Settings": {
+                "duration": 1,
+                "distance": 2
+            }
+        },
+        {
+            "ID": 4,
+            "Category": 1,
+            "Type": 33,
+            "Position": [
+                1250,
+                300
+            ],
+            "Settings": {}
+        },
+        {
+            "ID": 5,
+            "Category": 4,
+            "Type": 32,
+            "Position": [
+                1550,
+                80
+            ],
+            "Settings": {
+                "duration": 0.5
+            }
+        },
+        {
+            "ID": 6,
+            "Category": 1,
+            "Type": 35,
+            "Position": [
+                1830,
+                300
+            ],
+            "Settings": {
+                "hpPercent": 50
+            }
+        },
+        {
+            "ID": 7,
+            "Category": 5,
+            "Type": 37,
+            "Position": [
+                2150,
+                80
+            ],
+            "Settings": {
+                "duration": 5,
+                "distance": 2
+            }
+        },
+        {
+            "ID": 8,
+            "Category": 5,
+            "Type": 38,
+            "Position": [
+                2150,
+                520
+            ],
+            "Settings": {
+                "duration": 5,
+                "distance": 2
+            }
+        },
+        {
+            "ID": 9,
+            "Category": 6,
+            "Type": 21,
+            "Position": [
+                2450,
+                300
+            ],
+            "Settings": {
+                "duration": 0.6
+            }
+        },
+        {
+            "ID": 10,
+            "Category": 2,
+            "Type": 4,
+            "Position": [
+                2750,
+                300
+            ],
+            "Settings": {
+                "duration": 0.4
+            }
+        },
+        {
+            "ID": 11,
+            "Category": 3,
+            "Type": 5,
+            "Position": [
+                3050,
+                300
+            ],
+            "Settings": {
+                "duration": 0.5
+            }
+        },
+        {
+            "ID": 12,
+            "Category": 4,
+            "Type": 18,
+            "Position": [
+                1180,
+                530
+            ],
+            "Settings": {
+                "duration": 0.5
+            }
+        }
+    ],
+    "Connections": [
+        {
+            "fromID": 0,
+            "toID": 1,
+            "fromPort": 1
+        },
+        {
+            "fromID": 1,
+            "toID": 2,
+            "fromPort": 2
+        },
+        {
+            "fromID": 1,
+            "toID": 3,
+            "fromPort": 3
+        },
+        {
+            "fromID": 2,
+            "toID": 3,
+            "fromPort": 1
+        },
+        {
+            "fromID": 3,
+            "toID": 4,
+            "fromPort": 1
+        },
+        {
+            "fromID": 4,
+            "toID": 5,
+            "fromPort": 2
+        },
+        {
+            "fromID": 4,
+            "toID": 6,
+            "fromPort": 3
+        },
+        {
+            "fromID": 5,
+            "toID": 6,
+            "fromPort": 1
+        },
+        {
+            "fromID": 6,
+            "toID": 7,
+            "fromPort": 2
+        },
+        {
+            "fromID": 6,
+            "toID": 8,
+            "fromPort": 3
+        },
+        {
+            "fromID": 7,
+            "toID": 9,
+            "fromPort": 1
+        },
+        {
+            "fromID": 8,
+            "toID": 9,
+            "fromPort": 1
+        },
+        {
+            "fromID": 9,
+            "toID": 10,
+            "fromPort": 1
+        },
+        {
+            "fromID": 10,
+            "toID": 12,
+            "fromPort": 1
+        },
+        {
+            "fromID": 12,
+            "fromPort": 1,
+            "toID": 11
+        }
+    ]
+}
