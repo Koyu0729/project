@@ -1,0 +1,24 @@
+{
+    "Ground": {
+        "center": [
+            25.0,
+            0.0,
+            23.0
+        ],
+        "halfSize": [
+            10.0,
+            0.5,
+            100.0
+        ],
+        "texturePath": "asset\\texture\\frameBoxR.png",
+        "tileHalfSizeY": 0.05,
+        "tileSize": 4.0,
+        "colorPattern": [
+            9, 9, 9, 9, 9,
+            9, 9, 9, 9, 9,
+            5, 9, 9, 9, 5,
+            9, 5, 9, 5, 9,
+            9, 9, 5, 9, 9
+        ]
+    }
+}

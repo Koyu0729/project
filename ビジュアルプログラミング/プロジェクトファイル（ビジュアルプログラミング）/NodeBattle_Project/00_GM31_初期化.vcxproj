@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ec4bc977-6505-4ae5-bb52-5002c1acd0da}</ProjectGuid>
+    <RootNamespace>My00GM31初期化</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Library\cri\include;$(ProjectDir)Source\node\base;$(ProjectDir)Library\json;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cri_ware_pcx64_le_import.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Library\cri\include;$(ProjectDir)Source\node\base;$(ProjectDir)Library\json;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cri_ware_pcx64_le_import.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\audio;$(ProjectDir)Source\audio\generated\sounds;$(ProjectDir)Source\core;$(ProjectDir)Source\effects;$(ProjectDir)Source\enemy;$(ProjectDir)Source\game;$(ProjectDir)Source\graphics;$(ProjectDir)Source\input;$(ProjectDir)Source\math;$(ProjectDir)Source\node;$(ProjectDir)Source\node\base;$(ProjectDir)Source\node\data;$(ProjectDir)Source\node\editor;$(ProjectDir)Source\node\runtime;$(ProjectDir)Source\node\types;$(ProjectDir)Source\node\types\attackMelee;$(ProjectDir)Source\node\types\attackRange;$(ProjectDir)Source\node\types\if;$(ProjectDir)Source\node\types\move;$(ProjectDir)Source\node\types\rotate;$(ProjectDir)Source\node\types\start;$(ProjectDir)Source\node\types\wait;$(ProjectDir)Source\player;$(ProjectDir)Source\ui;$(ProjectDir)Library\cri\include;$(ProjectDir)Library\directx;$(ProjectDir)Library\json;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cri_ware_pcx64_le_import.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\audio;$(ProjectDir)Source\audio\generated\sounds;$(ProjectDir)Source\core;$(ProjectDir)Source\effects;$(ProjectDir)Source\enemy;$(ProjectDir)Source\game;$(ProjectDir)Source\graphics;$(ProjectDir)Source\input;$(ProjectDir)Source\math;$(ProjectDir)Source\node;$(ProjectDir)Source\node\base;$(ProjectDir)Source\node\data;$(ProjectDir)Source\node\editor;$(ProjectDir)Source\node\runtime;$(ProjectDir)Source\node\types;$(ProjectDir)Source\node\types\attackMelee;$(ProjectDir)Source\node\types\attackRange;$(ProjectDir)Source\node\types\if;$(ProjectDir)Source\node\types\move;$(ProjectDir)Source\node\types\rotate;$(ProjectDir)Source\node\types\start;$(ProjectDir)Source\node\types\wait;$(ProjectDir)Source\player;$(ProjectDir)Source\ui;$(ProjectDir)Library\cri\include;$(ProjectDir)Library\directx;$(ProjectDir)Library\json;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cri_ware_pcx64_le_import.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\node\types\attackMelee\attackMelee.cpp" />
+    <ClCompile Include="Source\node\types\attackRange\attackGun.cpp" />
+    <ClCompile Include="Source\node\types\if\ifFindObject.cpp" />
+    <ClCompile Include="Source\node\types\if\ifPlayerStats.cpp" />
+    <ClCompile Include="Source\node\types\if\ifRangeIO.cpp" />
+    <ClCompile Include="Source\node\types\move\moveBack.cpp" />
+    <ClCompile Include="Source\node\types\move\moveEscape.cpp" />
+    <ClCompile Include="Source\node\types\move\moveForward.cpp" />
+    <ClCompile Include="Source\node\types\move\moveStop.cpp" />
+    <ClCompile Include="Source\node\types\move\moveToTarget.cpp" />
+    <ClCompile Include="Source\node\types\rotate\faceLeft.cpp" />
+    <ClCompile Include="Source\node\types\rotate\faceRight.cpp" />
+    <ClCompile Include="Source\node\types\rotate\turnLeft.cpp" />
+    <ClCompile Include="Source\node\types\rotate\turnRight.cpp" />
+    <ClCompile Include="Source\node\types\start\start.cpp" />
+    <ClCompile Include="Source\player\playerRangeList.cpp" />
+    <ClCompile Include="Source\effects\bullet.cpp" />
+    <ClCompile Include="Source\ui\button.cpp" />
+    <ClCompile Include="Source\graphics\camera.cpp" />
+    <ClCompile Include="Source\graphics\drawLine.cpp" />
+    <ClCompile Include="Source\graphics\cube.cpp" />
+    <ClCompile Include="Source\effects\explosion.cpp" />
+    <ClCompile Include="Source\ui\fade.cpp" />
+    <ClCompile Include="Source\game\field.cpp" />
+    <ClCompile Include="Source\game\game.cpp" />
+    <ClCompile Include="Source\game\gameMenu.cpp" />
+    <ClCompile Include="Source\input\input.cpp" />
+    <ClCompile Include="Source\audio\kosuCRI.cpp" />
+    <ClCompile Include="Source\core\loadingScene.cpp" />
+    <ClCompile Include="Source\core\main.cpp" />
+    <ClCompile Include="Source\core\manager.cpp" />
+    <ClCompile Include="Source\graphics\modelRenderer.cpp" />
+    <ClCompile Include="Source\ui\moji.cpp" />
+    <ClCompile Include="Source\input\mouseInput.cpp" />
+    <ClCompile Include="Source\player\playerMovementList.cpp" />
+    <ClCompile Include="Source\node\nodeCreate.cpp" />
+    <ClCompile Include="Source\node\editor\nodeCreateList.cpp" />
+    <ClCompile Include="Source\node\editor\nodeEditor.cpp" />
+    <ClCompile Include="Source\player\playerDraw.cpp" />
+    <ClCompile Include="Source\player\playerNodeControl.cpp" />
+    <ClCompile Include="Source\game\stageData.cpp" />
+    <ClCompile Include="Source\node\nodeManager.cpp" />
+    <ClCompile Include="Source\node\runtime\nodeRuntime.cpp" />
+    <ClCompile Include="Source\node\base\nodeBase.cpp" />
+    <ClCompile Include="Source\node\data\nodeGraphData.cpp" />
+    <ClCompile Include="Source\node\editor\nodeView.cpp" />
+    <ClCompile Include="Source\player\playerRotateList.cpp" />
+    <ClCompile Include="Source\player\player.cpp" />
+    <ClCompile Include="Source\ui\polyTex.cpp" />
+    <ClCompile Include="Source\graphics\renderer.cpp" />
+    <ClCompile Include="Source\game\result.cpp" />
+    <ClCompile Include="Source\node\data\nodesSaveLoad.cpp" />
+    <ClCompile Include="Source\core\scene.cpp" />
+    <ClCompile Include="Source\ui\textObject.cpp" />
+    <ClCompile Include="Source\ui\textObjectBase.cpp" />
+    <ClCompile Include="Source\graphics\texture.cpp" />
+    <ClCompile Include="Source\game\title.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\move\sideMove.cpp" />
+    <ClCompile Include="Source\node\types\rotate\targetRotation.cpp" />
+    <ClCompile Include="Source\node\types\if\targetCondition.cpp" />
+    <ClCompile Include="Source\node\types\rotate\spinRotation.cpp" />
+    <ClCompile Include="Source\node\types\move\orbitMovement.cpp" />
+    <ClCompile Include="Source\node\types\if\tacticalCondition.cpp" />
+    <ClCompile Include="Source\node\types\move\tacticalMovement.cpp" />
+    <ClCompile Include="Source\node\types\wait\timedAction.cpp" />
+    <ClCompile Include="Source\node\types\wait\guard.cpp" />
+    <ClCompile Include="Source\player\attackController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\effects\bullet.h" />
+    <ClInclude Include="Source\ui\button.h" />
+    <ClInclude Include="Source\graphics\camera.h" />
+    <ClInclude Include="Source\graphics\drawLine.h" />
+    <ClInclude Include="Source\graphics\cube.h" />
+    <ClInclude Include="Source\ui\fontList.h" />
+    <ClInclude Include="Source\effects\explosion.h" />
+    <ClInclude Include="Source\ui\fade.h" />
+    <ClInclude Include="Source\game\field.h" />
+    <ClInclude Include="Source\game\arenaBounds.h" />
+    <ClInclude Include="Source\graphics\billboardSprite.h" />
+    <ClInclude Include="Source\ui\customFontLoader.h" />
+    <ClInclude Include="Source\game\game.h" />
+    <ClInclude Include="Source\game\stageType.h" />
+    <ClInclude Include="Source\game\stageDefinition.h" />
+    <ClInclude Include="Source\game\stageData.h" />
+
+    <ClInclude Include="Source\game\gameMenu.h" />
+    <ClInclude Include="Source\core\gameObject.h" />
+    <ClInclude Include="Source\input\mouseInput.h" />
+    <ClInclude Include="Source\node\base\branchBase.h" />
+    <ClInclude Include="Source\node\base\nodeBase.h" />
+    <ClInclude Include="Source\node\data\nodesSaveLoad.h" />
+    <ClInclude Include="Source\node\types\attackMelee\attackMelee.h" />
+    <ClInclude Include="Source\node\types\attackRange\attackGun.h" />
+    <ClInclude Include="Source\node\types\if\ifFindObject.h" />
+    <ClInclude Include="Source\node\types\if\ifPlayerStats.h" />
+    <ClInclude Include="Source\node\types\if\ifRangeIO.h" />
+    <ClInclude Include="Source\node\types\move\moveBack.h" />
+    <ClInclude Include="Source\node\types\move\moveEscape.h" />
+    <ClInclude Include="Source\node\types\move\moveForward.h" />
+    <ClInclude Include="Source\node\types\move\moveStop.h" />
+    <ClInclude Include="Source\node\types\move\moveToTarget.h" />
+    <ClInclude Include="Source\node\types\rotate\faceLeft.h" />
+    <ClInclude Include="Source\node\types\rotate\faceRight.h" />
+    <ClInclude Include="Source\node\types\rotate\turnLeft.h" />
+    <ClInclude Include="Source\node\types\rotate\turnRight.h" />
+    <ClInclude Include="Source\node\types\start\start.h" />
+    <ClInclude Include="Source\player\playerMovementList.h" />
+    <ClInclude Include="Source\player\playerRangeList.h" />
+    <ClInclude Include="Source\player\playerRotateList.h" />
+    <ClInclude Include="Source\ui\textObjectBase.h" />
+    <ClInclude Include="Source\ui\uiHitBox.h" />
+    <ClInclude Include="Source\input\input.h" />
+    <ClInclude Include="Source\audio\kosuCRI.h" />
+    <ClInclude Include="Source\core\loadingScene.h" />
+    <ClInclude Include="Source\core\main.h" />
+    <ClInclude Include="Source\core\manager.h" />
+    <ClInclude Include="Source\graphics\modelRenderer.h" />
+    <ClInclude Include="Source\ui\moji.h" />
+    <ClInclude Include="Library\json\json.hpp" />
+    <ClInclude Include="Source\node\nodeCreate.h" />
+    <ClInclude Include="Source\node\editor\nodeCreateList.h" />
+    <ClInclude Include="Source\node\editor\nodeEditor.h" />
+    <ClInclude Include="Source\node\nodeIncludes.h" />
+    <ClInclude Include="Source\node\nodeList.h" />
+    <ClInclude Include="Source\node\nodeManager.h" />
+    <ClInclude Include="Source\node\runtime\nodeRuntime.h" />
+    <ClInclude Include="Source\node\data\nodeGraphData.h" />
+    <ClInclude Include="Source\node\types\wait\timedAction.h" />
+    <ClInclude Include="Source\node\editor\nodeView.h" />
+    <ClInclude Include="Source\player\player.h" />
+    <ClInclude Include="Source\ui\polyTex.h" />
+    <ClInclude Include="Source\graphics\renderer.h" />
+    <ClInclude Include="Source\game\result.h" />
+    <ClInclude Include="Source\core\scene.h" />
+    <ClInclude Include="Source\game\stageObstacle.h" />
+    <ClInclude Include="Source\game\combatBalance.h" />
+    <ClInclude Include="Source\ui\textObject.h" />
+    <ClInclude Include="Source\graphics\texture.h" />
+    <ClInclude Include="Source\game\title.h" />
+    <ClInclude Include="Source\math\vector2.h" />
+    <ClInclude Include="Source\math\vector3.h" />
+    <ClInclude Include="Source\node\types\move\sideMove.h" />
+    <ClInclude Include="Source\node\types\rotate\targetRotation.h" />
+    <ClInclude Include="Source\node\types\if\targetCondition.h" />
+    <ClInclude Include="Source\node\types\rotate\spinRotation.h" />
+    <ClInclude Include="Source\node\types\move\orbitMovement.h" />
+    <ClInclude Include="Source\node\types\if\tacticalCondition.h" />
+    <ClInclude Include="Source\node\types\move\tacticalMovement.h" />
+    <ClInclude Include="Source\node\types\wait\guard.h" />
+    <ClInclude Include="Source\core\gameObject3D.h" />
+    <ClInclude Include="Source\core\gameObject2D.h" />
+    <ClInclude Include="Source\node\base\singleOutputNode.h" />
+    <ClInclude Include="Source\player\attackController.h" />
+      <ClInclude Include="Source\player\playerNodeControl.h" />
+      <ClInclude Include="Source\player\playerDraw.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\common.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTexturePS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTextureVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingPS.hlsl">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingVS.hlsl">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

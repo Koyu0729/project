@@ -1,0 +1,8 @@
+# CRI ADX LE SDK
+/Libraries/cri/
+/runtime/cri_ware_pcx64_le.dll
+
+# Assimp x64 import library
+!/Libraries/lib/x64/
+/Libraries/lib/x64/*
+!/Libraries/lib/x64/assimp-vc143-mt.lib

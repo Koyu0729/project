@@ -1,0 +1,69 @@
+{
+    "version": 2,
+    "Nodes": [
+        {
+            "ID": 0,
+            "Category": 0,
+            "Type": 0,
+            "Position": [
+                50,
+                330
+            ],
+            "Settings": {}
+        },
+        {
+            "ID": 1,
+            "Category": 1,
+            "Type": 3,
+            "Position": [
+                350,
+                330
+            ],
+            "Settings": {
+                "distance": 1.5
+            }
+        },
+        {
+            "ID": 2,
+            "Category": 2,
+            "Type": 4,
+            "Position": [
+                700,
+                220
+            ],
+            "Settings": {
+                "duration": 0.35
+            }
+        },
+        {
+            "ID": 3,
+            "Category": 5,
+            "Type": 12,
+            "Position": [
+                700,
+                460
+            ],
+            "Settings": {
+                "duration": 0.5,
+                "distance": 1.4
+            }
+        }
+    ],
+    "Connections": [
+        {
+            "fromID": 0,
+            "fromPort": 1,
+            "toID": 1
+        },
+        {
+            "fromID": 1,
+            "fromPort": 2,
+            "toID": 2
+        },
+        {
+            "fromID": 1,
+            "fromPort": 3,
+            "toID": 3
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "version": 2,
+    "Nodes": [
+        {
+            "ID": 0,
+            "Category": 0,
+            "Type": 0,
+            "Position": [
+                50,
+                300
+            ],
+            "Settings": {}
+        },
+        {
+            "ID": 1,
+            "Category": 5,
+            "Type": 12,
+            "Position": [
+                350,
+                300
+            ],
+            "Settings": {
+                "duration": 4,
+                "distance": 0.9
+            }
+        },
+        {
+            "ID": 2,
+            "Category": 2,
+            "Type": 31,
+            "Position": [
+                650,
+                300
+            ],
+            "Settings": {
+                "duration": 0.2
+            }
+        }
+    ],
+    "Connections": [
+        {
+            "fromID": 0,
+            "toID": 1,
+            "fromPort": 1
+        },
+        {
+            "fromID": 1,
+            "toID": 2,
+            "fromPort": 1
+        }
+    ]
+}

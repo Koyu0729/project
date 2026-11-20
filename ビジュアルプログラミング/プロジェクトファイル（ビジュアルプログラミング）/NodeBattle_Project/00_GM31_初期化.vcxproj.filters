@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="01_ノード">
+      <UniqueIdentifier>{2923e343-f901-5ef7-93c1-0e5971756254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\ノードの種類">
+      <UniqueIdentifier>{10a8f015-604c-5c7a-9a2b-0d124f12a84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\ノードの種類\回転">
+      <UniqueIdentifier>{191c7d76-8eed-5977-95a1-0363927d6c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\ノードの種類\待機">
+      <UniqueIdentifier>{b7ea966a-a920-54ca-b55e-24a0273ef6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\ノードの種類\条件分岐">
+      <UniqueIdentifier>{4e0b6310-ff0a-5e18-b4f5-52c4f141bb49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\ノードの種類\移動">
+      <UniqueIdentifier>{7b3cd436-1e62-5ee9-ba5f-72108095d962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\ノードの種類\近接攻撃">
+      <UniqueIdentifier>{d7a6270a-47f1-5134-9fab-3482071e4060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\ノードの種類\遠距離攻撃">
+      <UniqueIdentifier>{66679372-4090-54c7-adda-828f7ec2d3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\ノードの種類\開始">
+      <UniqueIdentifier>{dfbad527-2593-5a38-8390-91cdd74980ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\一覧・生成・接続">
+      <UniqueIdentifier>{fc9b5f48-7562-5d69-a2eb-7c1200c1f387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\保存・読み込み">
+      <UniqueIdentifier>{ba796c38-8f73-5254-95f1-310cbd8555ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\基底クラス">
+      <UniqueIdentifier>{b17bf8e9-e8e9-5cff-a977-8dfe23e62b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\実行管理">
+      <UniqueIdentifier>{1dbe5002-403a-523a-b573-d476ff3fc971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\編集画面">
+      <UniqueIdentifier>{955608cc-7533-59cf-be46-c646c2ac8a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_ゲーム">
+      <UniqueIdentifier>{3cec1aa4-6e8b-5933-a25b-099b2814fb79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_ゲーム\ステージ・敵の設定">
+      <UniqueIdentifier>{74b1a885-f51d-5191-9d2f-d245305da6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_ゲーム\フィールド">
+      <UniqueIdentifier>{d3ee7fc7-1d59-56e9-aea7-fcfbb29c5285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_ゲーム\画面・進行">
+      <UniqueIdentifier>{89a0473a-b5df-595f-b4f3-2e5c73b9bba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_プレイヤー">
+      <UniqueIdentifier>{4dc9ee64-df99-5b44-af40-ca5f103c687f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_描画">
+      <UniqueIdentifier>{711bd730-2316-528b-8ea0-64da8728f7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_描画\シェーダー">
+      <UniqueIdentifier>{8768bc75-3b03-5093-b47f-06e89fdb69a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_描画\弾・エフェクト">
+      <UniqueIdentifier>{0a76a248-f7f0-5a2f-827e-fbacbdff9d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_UI・文字">
+      <UniqueIdentifier>{0e7dc8fd-041d-59a4-93bb-58b7ae995be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_入力">
+      <UniqueIdentifier>{0c419e21-18c1-5658-9973-5c4bbcdc55ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_音声">
+      <UniqueIdentifier>{29ec16df-103e-504b-9274-2049af94ef8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_起動・シーン管理">
+      <UniqueIdentifier>{465f02a6-2d24-582b-8a3f-08d4b884e563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_起動・シーン管理\計算">
+      <UniqueIdentifier>{c17c4b5e-0e16-5f33-81ed-223295188b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_外部ライブラリ">
+      <UniqueIdentifier>{da652ffb-c1c6-500d-b91e-a75443c6c54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Library\JSON">
+      <UniqueIdentifier>{2701e2ca-e0c0-5a5c-bfe6-92b901c99fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_ノード\編集画面\ノードエディター">
+      <UniqueIdentifier>{793F5DF6-AB7B-4AEF-A7D8-4265DE9C9AC2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\node\types\attackMelee\attackMelee.cpp">
+      <Filter>01_ノード\ノードの種類\近接攻撃</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\attackRange\attackGun.cpp">
+      <Filter>01_ノード\ノードの種類\遠距離攻撃</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\if\ifFindObject.cpp">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\if\ifPlayerStats.cpp">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\if\ifRangeIO.cpp">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\move\moveBack.cpp">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\move\moveEscape.cpp">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\move\moveForward.cpp">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\move\moveStop.cpp">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\move\moveToTarget.cpp">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\rotate\faceLeft.cpp">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\rotate\faceRight.cpp">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\rotate\turnLeft.cpp">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\rotate\turnRight.cpp">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\start\start.cpp">
+      <Filter>01_ノード\ノードの種類\開始</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\player\playerRangeList.cpp">
+      <Filter>03_プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\effects\bullet.cpp">
+      <Filter>04_描画\弾・エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ui\button.cpp">
+      <Filter>05_UI・文字</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\graphics\camera.cpp">
+      <Filter>04_描画</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\graphics\drawLine.cpp">
+      <Filter>04_描画</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\graphics\cube.cpp">
+      <Filter>04_描画</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\effects\explosion.cpp">
+      <Filter>04_描画\弾・エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ui\fade.cpp">
+      <Filter>05_UI・文字</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game\field.cpp">
+      <Filter>02_ゲーム\フィールド</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game\game.cpp">
+      <Filter>02_ゲーム\画面・進行</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game\gameMenu.cpp">
+      <Filter>02_ゲーム\画面・進行</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\input\input.cpp">
+      <Filter>06_入力</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\audio\kosuCRI.cpp">
+      <Filter>07_音声</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\loadingScene.cpp">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\main.cpp">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\manager.cpp">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\graphics\modelRenderer.cpp">
+      <Filter>04_描画</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ui\moji.cpp">
+      <Filter>05_UI・文字</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\input\mouseInput.cpp">
+      <Filter>06_入力</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\player\playerMovementList.cpp">
+      <Filter>03_プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\nodeCreate.cpp">
+      <Filter>01_ノード\一覧・生成・接続</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\editor\nodeCreateList.cpp">
+      <Filter>01_ノード\編集画面</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\editor\nodeEditor.cpp">
+      <Filter>01_ノード\編集画面\ノードエディター</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\player\playerDraw.cpp">
+      <Filter>03_プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\player\playerNodeControl.cpp">
+      <Filter>03_プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\nodeManager.cpp">
+      <Filter>01_ノード\一覧・生成・接続</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\runtime\nodeRuntime.cpp">
+      <Filter>01_ノード\実行管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\base\nodeBase.cpp">
+      <Filter>01_ノード\基底クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\data\nodeGraphData.cpp">
+      <Filter>01_ノード\保存・読み込み</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\editor\nodeView.cpp">
+      <Filter>01_ノード\編集画面</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\player\playerRotateList.cpp">
+      <Filter>03_プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\player\player.cpp">
+      <Filter>03_プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ui\polyTex.cpp">
+      <Filter>05_UI・文字</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\graphics\renderer.cpp">
+      <Filter>04_描画</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game\result.cpp">
+      <Filter>02_ゲーム\画面・進行</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\data\nodesSaveLoad.cpp">
+      <Filter>01_ノード\保存・読み込み</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\core\scene.cpp">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ui\textObject.cpp">
+      <Filter>05_UI・文字</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ui\textObjectBase.cpp">
+      <Filter>05_UI・文字</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\graphics\texture.cpp">
+      <Filter>04_描画</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game\title.cpp">
+      <Filter>02_ゲーム\画面・進行</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\move\sideMove.cpp">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\rotate\targetRotation.cpp">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\if\targetCondition.cpp">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\rotate\spinRotation.cpp">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\move\orbitMovement.cpp">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\if\tacticalCondition.cpp">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\move\tacticalMovement.cpp">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\wait\timedAction.cpp">
+      <Filter>01_ノード\ノードの種類\待機</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\node\types\wait\guard.cpp">
+      <Filter>01_ノード\ノードの種類\待機</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\player\attackController.cpp">
+      <Filter>03_プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game\stageData.cpp">
+      <Filter>02_ゲーム\ステージ・敵の設定</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\effects\bullet.h">
+      <Filter>04_描画\弾・エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ui\button.h">
+      <Filter>05_UI・文字</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\graphics\camera.h">
+      <Filter>04_描画</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\graphics\drawLine.h">
+      <Filter>04_描画</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\graphics\cube.h">
+      <Filter>04_描画</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ui\fontList.h">
+      <Filter>05_UI・文字</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\effects\explosion.h">
+      <Filter>04_描画\弾・エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ui\fade.h">
+      <Filter>05_UI・文字</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\field.h">
+      <Filter>02_ゲーム\フィールド</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\arenaBounds.h">
+      <Filter>02_ゲーム\ステージ・敵の設定</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\graphics\billboardSprite.h">
+      <Filter>04_描画</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ui\customFontLoader.h">
+      <Filter>05_UI・文字</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\game.h">
+      <Filter>02_ゲーム\画面・進行</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\gameMenu.h">
+      <Filter>02_ゲーム\画面・進行</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\gameObject.h">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\input\mouseInput.h">
+      <Filter>06_入力</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\base\branchBase.h">
+      <Filter>01_ノード\基底クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\base\nodeBase.h">
+      <Filter>01_ノード\基底クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\data\nodesSaveLoad.h">
+      <Filter>01_ノード\保存・読み込み</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\attackMelee\attackMelee.h">
+      <Filter>01_ノード\ノードの種類\近接攻撃</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\attackRange\attackGun.h">
+      <Filter>01_ノード\ノードの種類\遠距離攻撃</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\if\ifFindObject.h">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\if\ifPlayerStats.h">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\if\ifRangeIO.h">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\move\moveBack.h">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\move\moveEscape.h">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\move\moveForward.h">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\move\moveStop.h">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\move\moveToTarget.h">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\rotate\faceLeft.h">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\rotate\faceRight.h">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\rotate\turnLeft.h">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\rotate\turnRight.h">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\start\start.h">
+      <Filter>01_ノード\ノードの種類\開始</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\player\playerMovementList.h">
+      <Filter>03_プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\player\playerRangeList.h">
+      <Filter>03_プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\player\playerRotateList.h">
+      <Filter>03_プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ui\textObjectBase.h">
+      <Filter>05_UI・文字</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ui\uiHitBox.h">
+      <Filter>05_UI・文字</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\input\input.h">
+      <Filter>06_入力</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\audio\kosuCRI.h">
+      <Filter>07_音声</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\loadingScene.h">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\main.h">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\manager.h">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\graphics\modelRenderer.h">
+      <Filter>04_描画</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ui\moji.h">
+      <Filter>05_UI・文字</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\json\json.hpp">
+      <Filter>10_Library\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\nodeCreate.h">
+      <Filter>01_ノード\一覧・生成・接続</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\editor\nodeCreateList.h">
+      <Filter>01_ノード\編集画面</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\editor\nodeEditor.h">
+      <Filter>01_ノード\編集画面\ノードエディター</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\nodeIncludes.h">
+      <Filter>01_ノード\一覧・生成・接続</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\nodeList.h">
+      <Filter>01_ノード\一覧・生成・接続</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\nodeManager.h">
+      <Filter>01_ノード\一覧・生成・接続</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\runtime\nodeRuntime.h">
+      <Filter>01_ノード\実行管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\data\nodeGraphData.h">
+      <Filter>01_ノード\保存・読み込み</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\wait\timedAction.h">
+      <Filter>01_ノード\ノードの種類\待機</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\editor\nodeView.h">
+      <Filter>01_ノード\編集画面</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\player\player.h">
+      <Filter>03_プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ui\polyTex.h">
+      <Filter>05_UI・文字</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\graphics\renderer.h">
+      <Filter>04_描画</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\result.h">
+      <Filter>02_ゲーム\画面・進行</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\scene.h">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\stageObstacle.h">
+      <Filter>02_ゲーム\ステージ・敵の設定</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\combatBalance.h">
+      <Filter>02_ゲーム\ステージ・敵の設定</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ui\textObject.h">
+      <Filter>05_UI・文字</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\graphics\texture.h">
+      <Filter>04_描画</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\title.h">
+      <Filter>02_ゲーム\画面・進行</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\math\vector2.h">
+      <Filter>08_起動・シーン管理\計算</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\math\vector3.h">
+      <Filter>08_起動・シーン管理\計算</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\move\sideMove.h">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\rotate\targetRotation.h">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\if\targetCondition.h">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\rotate\spinRotation.h">
+      <Filter>01_ノード\ノードの種類\回転</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\move\orbitMovement.h">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\if\tacticalCondition.h">
+      <Filter>01_ノード\ノードの種類\条件分岐</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\move\tacticalMovement.h">
+      <Filter>01_ノード\ノードの種類\移動</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\types\wait\guard.h">
+      <Filter>01_ノード\ノードの種類\待機</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\gameObject3D.h">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\core\gameObject2D.h">
+      <Filter>08_起動・シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\node\base\singleOutputNode.h">
+      <Filter>01_ノード\基底クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\player\attackController.h">
+      <Filter>03_プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\stageType.h">
+      <Filter>02_ゲーム\ステージ・敵の設定</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\stageDefinition.h">
+      <Filter>02_ゲーム\ステージ・敵の設定</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game\stageData.h">
+      <Filter>02_ゲーム\ステージ・敵の設定</Filter>
+    </ClInclude>
+      <ClInclude Include="Source\player\playerNodeControl.h">
+      <Filter>03_プレイヤー</Filter>
+    </ClInclude>
+      <ClInclude Include="Source\player\playerDraw.h">
+      <Filter>03_プレイヤー</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\common.hlsl">
+      <Filter>04_描画\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTexturePS.hlsl">
+      <Filter>04_描画\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTextureVS.hlsl">
+      <Filter>04_描画\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingPS.hlsl">
+      <Filter>04_描画\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingVS.hlsl">
+      <Filter>04_描画\シェーダー</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

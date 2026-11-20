@@ -1,0 +1,168 @@
+{
+    "Connections": [
+        {
+            "fromID": 0,
+            "fromPort": 1,
+            "toID": 1
+        },
+        {
+            "fromID": 1,
+            "fromPort": 1,
+            "toID": 2
+        },
+        {
+            "fromID": 2,
+            "fromPort": 2,
+            "toID": 3
+        },
+        {
+            "fromID": 2,
+            "fromPort": 3,
+            "toID": 4
+        },
+        {
+            "fromID": 3,
+            "fromPort": 1,
+            "toID": 4
+        },
+        {
+            "fromID": 4,
+            "fromPort": 1,
+            "toID": 5
+        },
+        {
+            "fromID": 5,
+            "fromPort": 1,
+            "toID": 6
+        },
+        {
+            "fromID": 6,
+            "fromPort": 1,
+            "toID": 7
+        }
+    ],
+    "Nodes": [
+        {
+            "Category": 0,
+            "ID": 0,
+            "Position": [
+                50.0,
+                260.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.5,
+                "hpPercent": 50.0
+            },
+            "Type": 0
+        },
+        {
+            "Category": 6,
+            "ID": 1,
+            "Position": [
+                330.0,
+                260.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.6000000238418579,
+                "hpPercent": 50.0
+            },
+            "Type": 21
+        },
+        {
+            "Category": 1,
+            "ID": 2,
+            "Position": [
+                610.0,
+                260.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.5,
+                "hpPercent": 50.0
+            },
+            "Type": 33
+        },
+        {
+            "Category": 5,
+            "ID": 3,
+            "Position": [
+                890.0,
+                260.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.8500000238418579,
+                "hpPercent": 50.0
+            },
+            "Type": 20
+        },
+        {
+            "Category": 5,
+            "ID": 4,
+            "Position": [
+                50.0,
+                420.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 0.8999999761581421,
+                "duration": 0.6000000238418579,
+                "hpPercent": 50.0
+            },
+            "Type": 12
+        },
+        {
+            "Category": 6,
+            "ID": 5,
+            "Position": [
+                330.0,
+                420.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.6000000238418579,
+                "hpPercent": 50.0
+            },
+            "Type": 21
+        },
+        {
+            "Category": 2,
+            "ID": 6,
+            "Position": [
+                610.0,
+                420.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.20000000298023224,
+                "hpPercent": 50.0
+            },
+            "Type": 31
+        },
+        {
+            "Category": 4,
+            "ID": 7,
+            "Position": [
+                890.0,
+                420.0
+            ],
+            "Settings": {
+                "angleDegrees": 90.0,
+                "distance": 1.5,
+                "duration": 0.20000000298023224,
+                "hpPercent": 50.0
+            },
+            "Type": 18
+        }
+    ],
+    "SaveName": "名前なし",
+    "version": 2
+}
